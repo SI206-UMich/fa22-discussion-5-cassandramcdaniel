@@ -38,6 +38,7 @@ class Warehouse:
 
 	# Adds an item to the warehouse	
 	def add_item(self, item):
+		item +=
 		pass
 
 	# Returns the item in the warehouse with the most stock		
