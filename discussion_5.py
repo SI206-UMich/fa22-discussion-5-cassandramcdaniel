@@ -1,10 +1,10 @@
 import unittest
 
-# Counts the number of a's in a sentence (e.g., a string)
+# Counts the number of a's in a  sentence (e.g., a string)
 def count_a(sentence):
 	total = 0
 	for i in range(len(sentence) - 1):
-		if i == 'a':
+		if i == 'a ':
 			total += 1
 	return total
 
@@ -34,7 +34,7 @@ class Warehouse:
 	def print_items(self):
 		for item in self.items:
 			print(item)
-			print("\n")	
+			print("\n  ")	
 
 	# Adds an item to the warehouse	
 	def add_item(self, item):
